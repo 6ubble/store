@@ -1,6 +1,6 @@
 import React from 'react';
 import { accessories } from '../../utils/data';
-import ProductCard from '../ProductCard/ProductCard';
+import ProductCard from './ProductCard';
 
 const Accessories = () => {
   return (

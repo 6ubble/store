@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { featuredProducts } from '../../utils/data';
-import ProductCard from '../ProductCard/ProductCard';
+import ProductCard from './ProductCard';
 
 const FeaturedProducts = () => {
   const [sortBy, setSortBy] = useState('popular');
